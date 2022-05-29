@@ -18,10 +18,14 @@
     <P id="description"> This describe the data that we should collect     </P>
 
     <form id="survey-form">
-      <p> Name: <input id="name" type="text" required/> </p>
-      <p> Email: <input type="email" name="email" id="email" required>   </p>
-      <p> Number: <input id="number" type="number" min="1" max="15"></p>
-    </form>
+      <Label id="name-label">  Name: <input id="name" type="text" placeholder="Enter your name" required/> </Label>
+       <Label id="email-label"> Email: <input type="email" name="email" id="email" placeholder="Enter your email" required>  </Label> 
+       <Label id="number-label"> Number: <input id="number" type="number" min="1" max="15" placeholder="Enter a number"></Label>
+      <select id="dropdown" name="Gender" >
+        <option value="male"> Male        </option>
+        <option value="Female" > Female </option>
+      </select>
+      </form>
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
