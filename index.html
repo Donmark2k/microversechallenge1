@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>
-      <h1 id="title">
-        SURVEY FORM
-
-      </h1>
+    <title>   
     </title>
     <link rel="stylesheet" href="css/style.css">
     
@@ -14,7 +10,10 @@
 
   <body>
 
-
+      <h1 id="title">
+          SURVEY FORM
+  
+        </h1>
     <P id="description"> This describe the data that we should collect     </P>
 
     <form id="survey-form">
@@ -31,11 +30,15 @@
       <p></p>
       <label>  Paid<input type="radio" name="Paid" value="Paid"/></label>
       <label>Not Paid<input type="radio" name="Paid" value="Not-Paid"/></label>
+      
 
       <p></p>
       <label> Cleared campus<input type="checkbox" value="I have cleared campus"></label>
       <p></p>
       <label> Currently Working<input type="checkbox" value="I am Currently working"></label>
+
+      <label> Additional Comment: <textarea type="textarea" name="comment" > </textarea></label>
+       <button type="submit" id="submit"  value="submit" >submit </button> 
       </form>
 
 
