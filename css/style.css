@@ -1,0 +1,18 @@
+#title {
+	font-family: sans-serif;
+	max-width = 250px;
+}
+
+h1 {
+	color: white;
+}
+
+body {
+	background-color: orange;
+	margin: 24px;
+
+}
+
+p {
+	margin-left: 24px;
+}
